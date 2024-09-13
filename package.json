@@ -1,0 +1,27 @@
+{
+  "homepage": "https://<hawkeye102>.github.io/<webpackresttopage>",
+
+  "name": "restto",
+  "version": "1.0.0",
+  "description": "odin project resturant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+  "build": "webpack --mode production",
+  "deploy": "gh-pages -d dist"
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
