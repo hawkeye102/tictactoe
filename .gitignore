@@ -1,0 +1,11 @@
+# Dependency directory
+node_modules/
+# Logs
+*.log
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+# VS Code workspace settings
+.vscode/
